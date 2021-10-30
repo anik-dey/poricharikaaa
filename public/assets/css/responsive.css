@@ -1,0 +1,80 @@
+@media only screen and (max-device-width: 1400px) {
+    #country_code {
+        width: 20%;
+    }
+    #phone {
+        width: 72%;
+    }
+}
+
+@media only screen and (max-device-width: 1200px) {
+    /* Responsive Classes Here */
+    .navbar-logo img {
+        width: 200px;
+    }
+    #country_code {
+        width: 12%;
+        margin-left: 20px;
+    }
+    #phone {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-device-width: 991px) {
+    .contact-form-div {
+        width: 100%;
+        /* background: black; */
+        position: relative;
+    }
+    .contact-down-content {
+        margin-top: 30px;
+    }
+    .header-single-content h1 {
+        font-weight: 700;
+        font-size: 55px;
+    }
+    .navbar-logo img {
+        width: 180px;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    /* Responsive Classes Here */
+    .header-single-content h1 {
+        font-weight: 700;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-device-width: 576px) {
+    /* Responsive Classes Here */
+    .navbar-logo img {
+        width: 160px;
+    }
+    #country_code {
+        width: 15%;
+    }
+    #phone {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* Responsive Classes Here */
+    .header-single-content h1 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-device-width: 360px) {
+    /* Responsive Classes Here */
+    .header-single-content h1 {
+        font-weight: 700;
+        font-size: 28px;
+    }
+    .navbar-logo img {
+        width: 140px;
+    }
+}
